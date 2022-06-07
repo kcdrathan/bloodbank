@@ -4,7 +4,7 @@
 
 .mynav,
 body footer.page-footer {
-  background-color: rgba(252, 34, 49, 0.979);
+  background-color: #4caf50;
 }
 
 .row {
@@ -12,7 +12,7 @@ body footer.page-footer {
 }
 
 h3 {
-  color: #9f190c;
+  color: #5a9f0c;
 }
 
 div.card div.card-content {

@@ -4,7 +4,7 @@
 
 .mynav,
 body footer.page-footer {
-  background-color: rgba(252, 34, 49, 0.979);
+  background-color: #28DE83;
 }
 
 input::-webkit-outer-spin-button,
@@ -26,11 +26,11 @@ input {
 }
 
 input:focus {
-  border-color: rgb(209, 69, 59);
+  border-color: #424242;
 }
 
 input#amount {
-  color: red;
+  color: #424242;
   font-size: 6rem;
   text-align: center;
 }

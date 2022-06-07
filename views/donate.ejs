@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="Description"
-      content="Author: Rishav Rungta, Purpose: I made this site as a larning project and will try and use react soon."
+      content="Author: Chandra Deep Rathan K, Purpose: I made this site as a larning project."
     />
     <title>BloodBank</title>
 
@@ -37,16 +37,16 @@
 
     <ul class="sidenav" id="mobile-demo">
       <li>
-        <a class="btn red" href="/bank?blood=&city=&zeros=on">Check Donors</a>
+        <a class="btn green" href="/bank?blood=&city=&zeros=on">Check Donors</a>
       </li>
-      <li><a class="btn red" href="/logout">Log Out</a></li>
+      <li><a class="btn green" href="/logout">Log Out</a></li>
     </ul>
 
     <!-- Crap -->
     <div class="center flow-text">
       <h4 class="indigo-text">Welcome <%= user.name %>.</h4>
       <p>
-        You have donated <span class="pink-text"><%= user.amount %></span> Pint
+        You have donated <span class="green-text"><%= user.amount %></span> Pint
         blood so far.
       </p>
     </div>
@@ -61,10 +61,10 @@
           value="0"
           class="browser-default"
         />
-        <span class="red-text">P</span><br />
+        <span class="green-text">P</span><br />
         <a
           onclick="document.getElementById('amountForm').submit();"
-          class="btn-floating btn-large waves-effect waves-light red"
+          class="btn-floating btn-large waves-effect waves-light green"
           ><i class="material-icons">add</i></a
         >
       </form>

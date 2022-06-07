@@ -69,15 +69,15 @@
 							<label for="city">City</label>
 						</div>
 						<div class="col l12 s12 m12 center">
-							<button type="submit" class="btn-floating btn-large waves-effect waves-light red"><i
+							<button type="submit" class="btn-floating btn-large waves-effect waves-light green"><i
 									class="material-icons">search</i></button>
 						</div>
 					</form>
 				</div>
 			</li>
-			<li><a class="btn red" href="/donate">Donate</a></li>
+			<li><a class="btn green" href="/donate">Donate</a></li>
 			<% if(logged){ %>
-			<li><a class="btn red" href="/logout">Logout</a></li>
+			<li><a class="btn green" href="/logout">Logout</a></li>
 			<% } %>
 		</ul>
 
@@ -114,7 +114,7 @@
 					<label for="city" class="white-text">City</label>
 				</div>
 				<div class="col l12 s12 m12 center">
-					<button type="submit" class="btn-floating btn-large waves-effect waves-light red"><i
+					<button type="submit" class="btn-floating btn-large waves-effect waves-light green"><i
 							class="material-icons">search</i></button>
 				</div>
 			</form>
@@ -125,13 +125,13 @@
 			<% if(docs.length == 0){ %>
 			<div class="container center">
 				<img src="boys.png" alt="Empty" class="responsive-img">
-				<p class="white-text flow-text">Me and the boys looking at 0 donors. Please redefine your search or go to <a
+				<p class="white-text flow-text">Looking at 0 donors. Please redefine your search or go to <a
 						style="text-decoration: underline" class="white-text" href="/bank">Page 1</a>.</p>
 			</div>
 			<%} else { %>
 			<% docs.forEach((doc)=>{ %>
 			<div class="col s12 m6 l4">
-				<div class="card red darken-1">
+				<div class="card green darken-1">
 					<div class="card-content white-text">
 						<span class="card-title flow-text">
 							<%= doc.name.substr(0,25) %></span>

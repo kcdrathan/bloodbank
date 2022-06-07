@@ -3,7 +3,7 @@
 }
 
 .mynav {
-  background-color: rgba(252, 34, 49, 0.979);
+  background-color: #4caf50;
 }
 
 footer {
@@ -12,14 +12,14 @@ footer {
 }
 
 body footer.page-footer {
-  background-color: rgba(252, 34, 49, 0.979);
+  background-color: #4caf50;
 }
 
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: rgb(229, 22, 38);
+  background-color: #4caf50;
 }
 
 .row {
@@ -27,7 +27,7 @@ body {
 }
 
 h3 {
-  color: #9f190c;
+  color: #5a9f0c;
 }
 
 div.card div.card-content {
